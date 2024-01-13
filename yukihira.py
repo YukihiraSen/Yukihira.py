@@ -379,7 +379,7 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m                                                                                         
-\033 [;130m__  __     __  __     __  __     __     __  __     __     ______     ______    
+ \033[1;32m__  __     __  __     __  __     __     __  __     __     ______     ______    
 \033 [;131m/\ \_\ \   /\ \/\ \   /\ \/ /    /\ \   /\ \_\ \   /\ \   /\  == \   /\  __ \   
 \033 [;132m\ \____ \  \ \ \_\ \  \ \  _"-.  \ \ \  \ \  __ \  \ \ \  \ \  __<   \ \  __ \  
 \033 [;133m \/\_____\  \ \_____\  \ \_\ \_\  \ \_\  \ \_\ \_\  \ \_\  \ \_\ \_\  \ \_\ \_\ 
@@ -1329,8 +1329,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m ALIYAN Toll Free BUT You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : ALIYAN FREE HA BHAIYO ENJOYA   \033[1;37m")
+		print(" \033[1;32m Free BUT You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note : ENJOY   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
