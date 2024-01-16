@@ -49,12 +49,9 @@ from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
 from urllib.parse import quote
 ugen2=['[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097196;FBDM/{density=3.0,width=1080,height=1920};FBLC/he_IL;FBCR/Cellcom IL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G900F;FBSV/5.0;nullFBCA/armeabi-v7a:armeabi;]
-Dalvik/2.1.0 (Linux; U; Android 13; SM-S134DL Build/TP1A.220624.014) [FBAN/Orca-Android;FBAV/405.0.0.16.112;FBPN/com.facebook.orca;FBLC/en_US;FBBV/466674869;FBCR/&amp;#160-;FBMF/samsung;FBBD/samsung;FBDV/SM-S134DL;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=1.875,width=720,height=1465};FB_FW/1;]
 [FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097196;FBDM/{density=3.0,width=1080,height=1920};FBLC/fr_FR;FBCR/Proximus;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G903F;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]
 [FBAN/Orca-Android;FBAV/377.0.0.13.101;FBPN/com.facebook.orca;FBLC/en_US;FBBV/396116327;FBCR/MTN;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO KI5k;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]
 [FBAN/Orca-Android;FBAV/377.0.0.13.101;FBPN/com.facebook.orca;FBLC/en_US;FBBV/396116327;FBCR/LoneStar;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO KI5k;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]
-Dalvik/2.1.0 (Linux; U; Android 13; SM-S134DL Build/TP1A.220624.014) [FBAN/Orca-Android;FBAV/405.0.0.16.112;FBPN/com.facebook.orca;FBLC/en_US;FBBV/466674869;FBCR/&amp;#160-;FBMF/samsung;FBBD/samsung;FBDV/SM-S134DL;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=1.875,width=720,height=1465};FB_FW/1;]
-[FBAN/FB4A;FBAV/292.0.0.61.123;FBPN/com.facebook.katana;FBLC/ru_RU;FBBV/251145728;FBCR/MegaFon;FBMF/Meizu;FBBD/Meizu;FBDV/M5 Note;FBSV/7.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;FBRV/0;]
 [FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097196;FBDM/{density=3.0,width=1080,height=1920};FBLC/nb_NO;FBCR/N Telenor;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G900F;FBSV/5.0;nullFBCA/armeabi-v7a:armeabi;]
 [FBAN/Orca-Android;FBAV/377.0.0.13.101;FBPN/com.facebook.orca;FBLC/en_US;FBBV/396116327;FBCR/LoneStar;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO KI5k;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]
 [FBAN/FB4A;FBAV/292.0.0.61.123;FBPN/com.facebook.katana;FBLC/ru_RU;FBBV/251145728;FBCR/MegaFon;FBMF/Meizu;FBBD/Meizu;FBDV/M5 Note;FBSV/7.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;FBRV/0;]
